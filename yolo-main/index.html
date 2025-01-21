@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOLO</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+    
+
+    <section class="hero">
+        <header class="header">
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        
+            <div class="side-bar">
+                 <div class="close-btn">
+                    <i class="fas fa-times"></i>
+                 </div> 
+        
+                <div class="menus">
+                
+                <div class="item">
+                
+                <a href="#" class="sub-btn">Services <i class="fas fa-angle-right dropdown"></i></a>
+                <div class="sub-menu">
+                    <a href="webdevelopment.html" class="sub-item">Webdevlopment</a>
+                    <a href="interior.html" class="sub-item">Interior Design</a>
+                    <a href="trading.html" class="sub-item">Investment & Trade</a>
+                    <a href="#" class="sub-item">Estimation report</a>
+                
+                </div>
+                
+                </div>
+                
+               <!-- <div class="item"><a href="#">Industies</a></div>-->
+                
+                <div class="item"><a href="about.html">About us</a></div>
+                
+                <div class="item"><a href="contact.html">Contact us</a></div>
+                
+                </div>
+                
+            </div>
+        
+            <script type="text/javascript"> 
+                $(document).ready(function(){
+                    $('.sub-btn').click(function(){
+                    $(this).next('.sub-menu').slideToggle();
+                    $(this).find('.dropdown').toggleClass('rotate');
+                });
+        
+                $('.menu-btn').click(function(){
+                 $('.side-bar').addClass('active');
+                 $('.menu-btn').css("visibility","hidden");
+                });
+        
+                $('.close-btn').click(function(){
+                 $('.side-bar').removeClass('active');
+                 $('.menu-btn').css("visibility","visible");
+                });
+            });
+            </script>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img  style="    padding-bottom: 14px;" id="logo2" src="logo.png" alt=""></a>
+                </div>
+                <nav class="menu">
+                    <div class="head">
+                        
+                        <img src="logo.png" alt="">
+                    </div>
+                    <button type="button" class="close-menu-btn"></button>
+                    <ul>
+                        <li class="dropdown">
+                            <a href="">Services</a>
+                           <!--- <i class="fa-solid fa-chevron-down"></i>--->
+                            <ul class="sub-menu">
+                                <li><a style="color: rgb(255, 252, 251); font-weight: 100;" href="webdevelopment.html"><span>Webdevelopment</span></a></li>
+                                <li><a style="color: rgb(247, 245, 244); font-weight: 100;" href="interior.html"><span>Interior Design</span></a></li>
+                                <li><a style="color: rgb(237, 235, 235); font-weight: 100;" href="trading.html"><span>Investment & Trade </span></a></li>
+                                <li><a style="color: rgb(250, 249, 248); font-weight: 100;" href="estimation.html"><span>Estimation Report</span></a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        
+        </header>
+    </section>
+   
+    <div class="line"></div>
+
+    <div class="container-image">
+        <img class="container-img" src="image/img1.jpg" alt="">
+        <h1 id="container-img-h1">YOUR FUTURE, OUR <span id="container-image-span"></span> CREATING ENDLESS POSSIBILITIES.</h1>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#container-image-span', {
+          strings: ['TECHNOLOGY :','DESIGN :','DEDICATION :'],
+          typeSpeed:200,
+          loop:true
+        });
+      </script>
+    <section>
+        
+         <div class="tags">
+            
+                <img class="tags-img" src="image/img15.png" alt="">
+                <img class="tags-img" src="image/img16.png" alt="">
+                <img class="tags-img" src="image/img17.png" alt="">
+                <img class="tags-img" src="image/img18.png" alt="">
+            
+        </div>
+
+        <div class="problem-solving">
+            <h1>What we do</h1>
+            <h4>PROBLEM SLOVING PLATFORM</h4>
+            <P>The business consulting services, we support businesses by solving complex challenges
+                 and creating new opportunities. Our platform will help you to devolep digital buisness innovation driving the change to
+                  provide our clients across the globe with a platform for success.</P>
+            </div>
+    </section>
+    <section>
+    <div class="our-features">      
+    <div class="our-features1">
+        <img class="our-features-img" src="image/img3.png" alt="">
+        <div class="our-features1-content">
+        <h1>Web development</h1>
+        <p>At YOLO , we specialize in innovative web development solutions that drive business growth, enhance user experience, and deliver exceptional digital performance."</p>
+        <a href="webdevelopment.html">Read more...</a>
+        </div>
+    </div>
+    <div  class="our-features1">
+        <img class="our-features-img" src="image/img11.png" alt="">
+        <div class="our-features1-content">
+        <h1>Interior designs</h1>
+        <p>At YOLO, we create stunning and functional interior designs that transform spaces into beautiful, personalized environments tailored to your lifestyle and needs.</p>
+        <a href="interior.html">Read more...</a>
+        </div>
+    </div>
+    <div  class="our-features1">
+        <img class="our-features-img" src="image/img9.png" alt="">
+        <div class="our-features1-content">
+        <h1>Investment & Trading</h1>
+        <p>At YOLO, we provide expert investment and trading services tailored to help you achieve your financial goals. Our team leverages market insights and cutting-edge technology to deliver strategic and profitable investment solutions.</p>
+        <a href="trading.html">Read more...</a>
+        </div>
+    </div>
+    <div  class="our-features1">
+        <img class="our-features-img" src="image/img12.jpg" alt="">
+        <div class="our-features1-content">
+        <h1>Estimation reports</h1>
+        <p>At YOLO, we deliver precise and detailed estimation reports to ensure accurate project planning and budgeting. Our expert analysts use advanced tools and methodologies to provide reliable cost assessments tailored to your specific needs.</p>
+        <a href="estimation.html">Read more...</a>
+        </div>
+    </div>
+    </div>
+    </section>
+    <hr style="color:gray;">
+
+    <div class="container-three">
+       <img class="container-three-img" src="image/img19.png" alt="">  
+    </div>
+    <section style="background-color: rgb(244, 241, 237); padding-top: 1px; padding-bottom: 1px;">
+        <div class="forms">
+    <div class="form-content">
+        <h4>Let's talk</h4>
+        <h1>Are you prepared to welcome the future?</h1>
+    </div>
+    <div class="form">
+        <form>
+            <div class="form-name">
+            <div class="form-first">
+         First Name:
+         <input type="text"> 
+            </div>
+            <div class="form-last">
+                Last Name:
+                <input type="text">
+            </div>
+            </div>
+            <div class="form-personal">
+                <div class="form-email">
+                    Email:
+                    <input type="email">
+                </div>
+                <div class="form-number">
+                    Phone Number:
+                    <input type="number">
+                </div>
+            </div>
+            <div class="form-location">
+                Location:
+                <input type="text">
+            </div>
+            <div class="form-reason">
+                I am looking for:
+                <select>
+                    <option>Please Select</option>
+                    <option>Job opportunities</option>
+                    <option>Business with you for partner</option>
+                    <option>Others</option>
+                </select>
+            </div>
+         <div class="form-message">
+                Message:
+                <textarea id="message" class="input-message" name="message" placeholder></textarea>
+            </div>
+            <button class="form-button">Send</button>
+        </form>
+    </div>
+        </div>
+    </section>
+ <section >
+    <div class="end">
+    <div class="end-sentence">
+        <h3>YOLO Consulting Services Company|<a href="">Contact Us</a>|<a href="">Disclamer</a>|<a href="">privacy policy</a> </h3>
+    </div>
+   
+    <div class="end-img-1">
+    <a href="">
+    <img  class="end-img" src="image/linkedin.png" alt="">
+    </a>
+
+    <a href="https://www.instagram.com/yolo_consulting_services?igsh=ZWEzd3RkamFqY2Zs">
+    <img class="end-img" src="image/instagram.png" alt="">
+    </a>
+    <a href="https://x.com/YOLOofficial884?t=AgLILC4nA1N_fzPQxi89HA&s=09">
+    <img class="end-img" src="image/twitter.png" alt="">
+    </a>
+    <a href="https://www.facebook.com/share/kQDbkgoFeZ9uVHLo/?mibextid=qi2Omg">
+    <img class="end-img" src="image/facebook.png" alt="">
+    </a>
+    </div>
+</div>
+</section>
+
+<script>
+    ScrollReveal({ 
+        reset: true,
+        distance:'60px',
+        duration:1500,
+        delay:200
+
+                 });
+                 ScrollReveal().reveal('.container-image', { delay: 50 });
+                 ScrollReveal().reveal('.tags', { delay: 500 });
+                 ScrollReveal().reveal('.problem-solving', { delay: 50 });
+                 ScrollReveal().reveal('.our-features', { delay: 50 });
+                 ScrollReveal().reveal('.our-features1', { delay: 50 });
+                 ScrollReveal().reveal('.container-three', { delay: 50 });
+                 ScrollReveal().reveal('.forms', { delay: 50 });
+                 ScrollReveal().reveal('.end', { delay: 50 });
+           
+</script>
+      
+</body>
+</html>
